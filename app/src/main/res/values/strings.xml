@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HD DnD</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_add_campaign">Add Campaign</string>
+    <string name="label_title">Title:</string>
+    <string name="desc_title">Name to use for the campaign.</string>
+    <string name="label_description">Description:</string>
+</resources>
