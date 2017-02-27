@@ -4,13 +4,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/castle"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -24,6 +25,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="code.puretechnicality.hddnd.MainActivity" />
         </activity>
+
+        <provider
+            android:name=".CampaignContentProvider"
+            android:authorities="code.puretechnicality.hddnd.CampaignProvider"
+            android:enabled="true" />
     </application>
 
 </manifest>
